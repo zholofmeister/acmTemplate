@@ -6,7 +6,7 @@
 using namespace std;
 
 //预处理O(nlogn) 在线查询O(1)
-const int maxn = 2*EDIT+100; //要开两倍点数量的大小（欧拉序长度）
+const int maxn = 2*500000+100; //要开两倍点数量的大小（欧拉序长度）
 struct LCA
 {
 	#define type int
@@ -19,10 +19,10 @@ struct LCA
 		path[++all] = u;
 		loc[u] = all;
 		dep[all] = now;
-		len[u] = now+1;
 		for (node cur : G[u]) {
             int v = cur.to;
 			if (loc[v]) continue;
+			len[v] = now+1;
 			dist[v] = dist[u]+cur.w;
 			dfs(v, now+1);
 			path[++all] = u;
@@ -99,7 +99,7 @@ int main(){
     int n, m, s;
     // n个点，m个询问，s是根节点
     cin >> n >> m >> s;  
-    lca.init(n); // 预处理所有节点[0, n]
+    lca.init(n); // 预处理所有节点
     for (int i = 0; i < n-1; ++i) {
         int a, b;
         cin >> a >> b;
