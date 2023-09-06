@@ -1,0 +1,5 @@
+<IO> <> <> <IO>
+<istringstream> <istringstream.cpp>
+<unordered\_map 防hack模板> <unordered_map 防hack模板.cpp>
+<杜教BM> <杜教BM.cpp>
+<模拟退火> <模拟退火.cpp>

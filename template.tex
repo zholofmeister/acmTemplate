@@ -1,0 +1,371 @@
+\documentclass[10pt,a4paper]{article}
+%\usepackage{zh_CN-Adobefonts_external}
+\usepackage{xeCJK}
+\usepackage{amsmath, amsthm}
+\usepackage{listings,xcolor}
+\usepackage{geometry} % 设置页边距
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage[colorlinks,linkcolor=black]{hyperref}
+\usepackage{setspace}
+\usepackage{fancyhdr} % 自定义页眉页脚
+
+
+\setsansfont{Consolas} % 设置英文字体
+\setmonofont[Mapping={}]{Consolas} % 英文引号之类的正常显示，相当于设置英文字体
+
+\linespread{1.2}
+
+\title{Template For ICPC}
+\author{ZZY @ HZIEE}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\pagestyle{fancy}
+
+\lhead{\CJKfamily{kai} HZIEE} % 以下分别为左中右的页眉和页脚
+\chead{}
+
+\rhead{\CJKfamily{kai} 第 \thepage 页}
+\lfoot{} 
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt} 
+\renewcommand{\footrulewidth}{0.4pt}
+%\geometry{left=2.5cm,right=3cm,top=2.5cm,bottom=2.5cm} % 页边距
+\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+\setlength{\columnsep}{30pt}
+
+\makeatletter
+
+\makeatother
+
+
+
+\lstset{
+    language    = c++,
+    numbers     = left,
+    numberstyle={                               % 设置行号格式
+        \small
+        \color{black}
+        \fontspec{Consolas}
+    },
+	commentstyle = \color[RGB]{0,128,0}\bfseries, % 代码注释的颜色
+	keywordstyle={                              % 设置关键字格式
+        \color[RGB]{40,40,255}
+        \fontspec{Consolas Bold}
+        \bfseries
+    },
+	stringstyle={                               % 设置字符串格式
+        \color[RGB]{128,0,0}
+        \fontspec{Consolas}
+        \bfseries
+    },
+	basicstyle={                                % 设置代码格式
+        \fontspec{Consolas}
+        \small\ttfamily
+    },
+	emphstyle=\color[RGB]{112,64,160},          % 设置强调字格式
+    breaklines=true,                            % 设置自动换行
+    tabsize     = 4,
+    frame       = single, % 主题
+    columns     = fullflexible,
+    rulesepcolor = \color{red!20!green!20!blue!20}, % 设置边框的颜色
+    showstringspaces = false, % 不显示代码字符串中间的空格标记
+	escapeinside={\%*}{*)},
+}
+
+\begin{document}
+\title{ICPC Templates For Grooming}
+\author {ZZY}
+\maketitle
+\tableofcontents
+\newpage
+\section{图论}
+\subsection{最短路}
+\subsubsection{堆优化Dijkstra}
+\lstinputlisting{图论/最短路/堆优化Dijkstra.cpp}
+\subsubsection{spfa}
+\lstinputlisting{图论/最短路/spfa.cpp}
+\subsubsection{floyd求传递闭包}
+\lstinputlisting{图论/最短路/floyd求传递闭包.cpp}
+\subsubsection{floyd求最小环}
+\lstinputlisting{图论/最短路/floyd求最小环.cpp}
+\subsubsection{johnson全源最短路}
+\lstinputlisting{图论/最短路/johnson全源最短路.cpp}
+\subsubsection{差分约束系统}
+\lstinputlisting{图论/最短路/差分约束系统.cpp}
+\subsubsection{经典例题}
+\lstinputlisting{图论/最短路/经典例题.cpp}
+\subsubsection{SCOI2011 糖果}
+\lstinputlisting{图论/最短路/SCOI2011 糖果.cpp}
+\subsubsection{16 ccpc final G}
+\lstinputlisting{图论/最短路/16 ccpc final G.cpp}
+\subsubsection{倍杀测量者}
+\lstinputlisting{图论/最短路/倍杀测量者.cpp}
+\subsubsection{LightOJ 1208}
+\lstinputlisting{图论/最短路/LightOJ 1208.cpp}
+\subsubsection{LightOJ 1221}
+\lstinputlisting{图论/最短路/LightOJ 1221.cpp}
+\subsection{生成树}
+\subsubsection{最小树形图 固定根}
+\lstinputlisting{图论/生成树/最小树形图 固定根.cpp}
+\subsubsection{最小树形图 固定根 输出方案}
+\lstinputlisting{图论/生成树/最小树形图 固定根 输出方案.cpp}
+\subsubsection{最小树形图 不固定根}
+\lstinputlisting{图论/生成树/最小树形图 不固定根.cpp}
+\subsection{网络流}
+\subsubsection{DICNIC}
+\lstinputlisting{图论/网络流/DICNIC.cpp}
+\subsubsection{ISAP}
+\lstinputlisting{图论/网络流/ISAP.cpp}
+\subsubsection{MCMF}
+\lstinputlisting{图论/网络流/MCMF.cpp}
+\subsubsection{常见思路}
+\lstinputlisting{图论/网络流/常见思路.cpp}
+\subsection{匹配问题}
+\subsubsection{匈牙利}
+\lstinputlisting{图论/匹配问题/匈牙利.cpp}
+\subsubsection{HK}
+\lstinputlisting{图论/匹配问题/HK.cpp}
+\subsubsection{KM-DFS}
+\lstinputlisting{图论/匹配问题/dfs版本.cpp}
+\subsubsection{KM-BFS}
+\lstinputlisting{图论/匹配问题/bfs版本.cpp}
+\subsubsection{带花树}
+\lstinputlisting{图论/匹配问题/带花树.cpp}
+\subsubsection{稳定婚姻问题}
+\lstinputlisting{图论/匹配问题/稳定婚姻问题.cpp}
+\subsubsection{常见思路}
+\lstinputlisting{图论/匹配问题/常见思路.cpp}
+\subsection{二分图博弈}
+\subsubsection{二分图博弈}
+\lstinputlisting{图论/二分图博弈/二分图博弈.cpp}
+\subsubsection{bzoj 1443 JSOI2009}
+\lstinputlisting{图论/二分图博弈/bzoj 1443 JSOI2009.cpp}
+\subsection{2-SAT}
+\subsubsection{输出任意解}
+\lstinputlisting{图论/2-SAT/输出任意解.cpp}
+\subsubsection{输出字典序最小解}
+\lstinputlisting{图论/2-SAT/输出字典序最小解.cpp}
+\subsubsection{思路}
+\lstinputlisting{图论/2-SAT/思路.cpp}
+\subsubsection{经典例题}
+\lstinputlisting{图论/2-SAT/经典例题.cpp}
+\subsubsection{UVA 11930}
+\lstinputlisting{图论/2-SAT/UVA 11930.cpp}
+\subsubsection{cf27D}
+\lstinputlisting{图论/2-SAT/cf27D.cpp}
+\subsection{强连通}
+\subsubsection{有向可有环图}
+\lstinputlisting{图论/强连通/有向可有环图.cpp}
+\subsection{双连通}
+\subsubsection{割点 桥}
+\lstinputlisting{图论/双连通/割点 桥.cpp}
+\subsubsection{割点 桥 v2}
+\lstinputlisting{图论/双连通/割点 桥 v2.cpp}
+\subsubsection{割点 桥 v3}
+\lstinputlisting{图论/双连通/割点 桥 v3.cpp}
+\subsubsection{船新版本}
+\lstinputlisting{图论/双连通/船新版本.cpp}
+\subsubsection{思路}
+\lstinputlisting{图论/双连通/思路.cpp}
+\subsubsection{经典例题}
+\lstinputlisting{图论/双连通/经典例题.cpp}
+\subsubsection{POJ 2942}
+\lstinputlisting{图论/双连通/POJ 2942.cpp}
+\subsubsection{UVA 10972}
+\lstinputlisting{图论/双连通/UVA 10972.cpp}
+\subsubsection{T103492}
+\lstinputlisting{图论/双连通/T103492.cpp}
+\subsubsection{P1407}
+\lstinputlisting{图论/双连通/P1407.cpp}
+\subsubsection{gym 102835}
+\lstinputlisting{图论/双连通/gym 102835.cpp}
+\subsubsection{LightOJ 1308}
+\lstinputlisting{图论/双连通/LightOJ 1308.cpp}
+\subsection{欧拉回路}
+\subsubsection{模板}
+\lstinputlisting{图论/欧拉回路/模板.cpp}
+\subsubsection{知识点}
+\lstinputlisting{图论/欧拉回路/知识点.cpp}
+\subsubsection{经典例题}
+\lstinputlisting{图论/欧拉回路/经典例题.cpp}
+\subsubsection{cf 21D}
+\lstinputlisting{图论/欧拉回路/cf 21D.cpp}
+\subsection{LCA}
+\subsubsection{ST表}
+\lstinputlisting{图论/LCA/ST表.cpp}
+\subsubsection{离线}
+\lstinputlisting{图论/LCA/离线.cpp}
+\subsection{最大团}
+\subsubsection{Bron-Kerbosch}
+\lstinputlisting{图论/最大团/Bron-Kerbosch.cpp}
+\subsubsection{常见思路}
+\lstinputlisting{图论/最大团/常见思路.cpp}
+\subsection{拓扑排序}
+\subsubsection{toposort}
+\lstinputlisting{图论/拓扑排序/toposort.cpp}
+\subsection{相关题集}
+\subsubsection{牛逼的图论题}
+\lstinputlisting{图论/相关题集/牛逼的图论题.cpp}
+\subsubsection{cf 1364D}
+\lstinputlisting{图论/相关题集/cf 1364D.cpp}
+\section{计算几何}
+\subsection{点}
+\lstinputlisting{计算几何/点.cpp}
+\subsection{线}
+\lstinputlisting{计算几何/线.cpp}
+\subsection{圆}
+\lstinputlisting{计算几何/圆.cpp}
+\subsection{多边形}
+\lstinputlisting{计算几何/多边形.cpp}
+\subsection{半平面交}
+\lstinputlisting{计算几何/半平面交.cpp}
+\subsection{function}
+\lstinputlisting{计算几何/function.cpp}
+\subsection{注意点}
+\lstinputlisting{计算几何/注意点.cpp}
+\subsection{常出现的模型}
+\lstinputlisting{计算几何/常出现的模型.cpp}
+\subsection{奇怪的技巧}
+\lstinputlisting{计算几何/奇怪的技巧.cpp}
+\subsection{凸包}
+\subsubsection{判断是否是稳定凸包}
+\lstinputlisting{计算几何/凸包/判断是否是稳定凸包.cpp}
+\subsection{旋转卡壳}
+\subsubsection{SCOI2007 最大土地面积}
+\lstinputlisting{计算几何/旋转卡壳/SCOI2007 最大土地面积.cpp}
+\subsection{扫描线}
+\subsubsection{矩形面积交 hdu1255}
+\lstinputlisting{计算几何/扫描线/矩形面积交 hdu1255.cpp}
+\subsubsection{面积并 坐标double版}
+\lstinputlisting{计算几何/扫描线/面积并 坐标double版.cpp}
+\subsubsection{面积并 坐标i64版 O(nlgn)}
+\lstinputlisting{计算几何/扫描线/面积并 坐标i64版 O(nlgn).cpp}
+\subsubsection{周长并 O(nlgn)}
+\lstinputlisting{计算几何/扫描线/周长并 O(nlgn).cpp}
+\subsection{半平面交}
+\subsubsection{经典例题}
+\lstinputlisting{计算几何/半平面交/经典例题.cpp}
+\subsubsection{codechef ALLPOLY}
+\lstinputlisting{计算几何/半平面交/codechef ALLPOLY.cpp}
+\subsection{不知道分在哪一类}
+\subsubsection{经典例题}
+\lstinputlisting{计算几何/不知道分在哪一类/经典例题.cpp}
+\subsubsection{cf 598C}
+\lstinputlisting{计算几何/不知道分在哪一类/cf 598C.cpp}
+\subsubsection{2020ZJ省赛 H}
+\lstinputlisting{计算几何/不知道分在哪一类/2020ZJ省赛 H.cpp}
+\subsubsection{2018 ccpc 桂林 H}
+\lstinputlisting{计算几何/不知道分在哪一类/2018 ccpc 桂林 H.cpp}
+\subsubsection{LightOj 1208}
+\lstinputlisting{计算几何/不知道分在哪一类/LightOj 1208.cpp}
+\subsubsection{LightOJ 1292}
+\lstinputlisting{计算几何/不知道分在哪一类/LightOJ 1292.cpp}
+\subsubsection{LightOJ 1230}
+\lstinputlisting{计算几何/不知道分在哪一类/LightOJ 1230.cpp}
+\section{数据结构}
+\subsection{线段树}
+\subsubsection{线段树\_区间合并 hotel}
+\lstinputlisting{数据结构/线段树/线段树_区间合并 hotel.cpp}
+\subsection{树状数组}
+\subsubsection{逆序对}
+\lstinputlisting{数据结构/树状数组/逆序对.cpp}
+\subsection{树剖}
+\subsubsection{重链剖分}
+\lstinputlisting{数据结构/树剖/重链剖分.cpp}
+\subsubsection{题单}
+\lstinputlisting{数据结构/树剖/题单.txt}
+\subsubsection{P3384}
+\lstinputlisting{数据结构/树剖/P3384.cpp}
+\subsection{主席树}
+\subsubsection{静态查询区间第k大}
+\lstinputlisting{数据结构/主席树/静态查询区间第k大.cpp}
+\subsubsection{动态查询区间第k大}
+\lstinputlisting{数据结构/主席树/动态查询区间第k大.cpp}
+\subsection{字典树}
+\subsubsection{trie树}
+\lstinputlisting{数据结构/字典树/trie树.cpp}
+\section{字符串}
+\subsection{KMP}
+\lstinputlisting{字符串/1-KMP.cpp}
+\subsection{exKMP}
+\lstinputlisting{字符串/2-exKMP.cpp}
+\subsection{Manacher}
+\lstinputlisting{字符串/3-Manacher.cpp}
+\section{dp}
+\subsection{树形dp}
+\subsubsection{树的重心}
+\lstinputlisting{dp/树形dp/树的重心.cpp}
+\subsubsection{树上最远距离}
+\lstinputlisting{dp/树形dp/树上最远距离.cpp}
+\section{树上问题}
+\subsection{树的直径}
+\lstinputlisting{树上问题/树的直径.cpp}
+\section{STL}
+\subsection{自定义排序}
+\lstinputlisting{STL/自定义排序.cpp}
+\subsection{nth\_element}
+\lstinputlisting{STL/nth_element.cpp}
+\section{其他问题}
+\subsection{ST表}
+\subsubsection{ST表}
+\lstinputlisting{其他问题/ST表/ST表.cpp}
+\subsection{莫队}
+\subsubsection{复杂度}
+\lstinputlisting{其他问题/莫队/复杂度.cpp}
+\subsubsection{普通莫队 LOJ 1188 O(根号n乘q)}
+\lstinputlisting{其他问题/莫队/普通莫队 LOJ 1188 O(根号n乘q).cpp}
+\subsubsection{带修改莫队 cf 940F}
+\lstinputlisting{其他问题/莫队/带修改莫队 cf 940F.cpp}
+\subsection{母函数}
+\subsubsection{hdu 1028}
+\lstinputlisting{其他问题/母函数/hdu 1028.cpp}
+\subsection{二分注意点}
+\lstinputlisting{其他问题/二分注意点.cpp}
+\subsection{LIS}
+\lstinputlisting{其他问题/LIS.cpp}
+\subsection{尺取法}
+\lstinputlisting{其他问题/尺取法.cpp}
+\subsection{单调队列}
+\lstinputlisting{其他问题/单调队列.cpp}
+\subsection{一句话去重 并生成新数组}
+\lstinputlisting{其他问题/一句话去重 并生成新数组.cpp}
+\subsection{输入一行看有多少个数}
+\lstinputlisting{其他问题/输入一行看有多少个数.cpp}
+\subsection{最小（大）表示法}
+\lstinputlisting{其他问题/最小（大）表示法.cpp}
+\subsection{随机数}
+\lstinputlisting{其他问题/随机数.cpp}
+\subsection{输入日期输出周几}
+\lstinputlisting{其他问题/输入日期输出周几.cpp}
+\section{黑科技}
+\subsection{IO}
+\subsubsection{快读模板}
+\lstinputlisting{黑科技/IO/快读模板.cpp}
+\subsubsection{\_\_int128 输入输出模板}
+\lstinputlisting{黑科技/IO/__int128 输入输出模板.cpp}
+\subsection{istringstream}
+\lstinputlisting{黑科技/istringstream.cpp}
+\subsection{unordered\_map 防hack模板}
+\lstinputlisting{黑科技/unordered_map 防hack模板.cpp}
+\subsection{杜教BM}
+\lstinputlisting{黑科技/杜教BM.cpp}
+\subsection{模拟退火}
+\lstinputlisting{黑科技/模拟退火.cpp}
+\section{大数}
+\subsection{java}
+\subsubsection{输入}
+\lstinputlisting{大数/java/输入.cpp}
+\subsubsection{申明变量}
+\lstinputlisting{大数/java/申明变量.cpp}
+\subsubsection{String操作}
+\lstinputlisting{大数/java/String操作.cpp}
+\subsubsection{注意点}
+\lstinputlisting{大数/java/注意点.cpp}
+\subsection{python}
+\subsubsection{python}
+\lstinputlisting{大数/python/python.cpp}
+\end{document}

@@ -1,0 +1,1 @@
+1. 输出long double "%Lf"  "#define __USE_MINGW_ANSI_STDIO 1"

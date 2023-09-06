@@ -1,0 +1,871 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.9.24)  2 JAN 2021 22:13
+entering extended mode
+**./template.tex
+(template.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/xelatex/xecjk\xeCJK.sty
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xdv
+ipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-06-29 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count171
+\l__pdf_internal_box=\box45
+\g__pdf_backend_object_int=\count172
+\g__pdf_backend_annotation_int=\count173
+))
+Package: xeCJK 2020/08/23 v3.8.5 Typesetting CJK scripts with XeLaTeX
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty
+Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen135
+\l__xtemplate_tmp_int=\count174
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip49
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex
+\l__xparse_current_arg_int=\count175
+\g__xparse_grabber_int=\count176
+\l__xparse_m_args_int=\count177
+\l__xparse_v_nesting_int=\count178
+))
+\l__xeCJK_tmp_int=\count179
+\l__xeCJK_tmp_box=\box46
+\l__xeCJK_tmp_dim=\dimen136
+\l__xeCJK_tmp_skip=\skip50
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/ctex\ctexhook.sty
+Package: ctexhook 2020/08/23 v2.5.4 Document and package hooks (CTEX)
+)
+\g__xeCJK_space_factor_int=\count180
+\l__xeCJK_begin_int=\count181
+\l__xeCJK_end_int=\count182
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip51
+\g__xeCJK_node_int=\count183
+\c__xeCJK_CJK_node_dim=\dimen137
+\c__xeCJK_CJK-space_node_dim=\dimen138
+\c__xeCJK_default_node_dim=\dimen139
+\c__xeCJK_default-space_node_dim=\dimen140
+\c__xeCJK_CJK-widow_node_dim=\dimen141
+\c__xeCJK_normalspace_node_dim=\dimen142
+\l__xeCJK_ccglue_skip=\skip52
+\l__xeCJK_ecglue_skip=\skip53
+\l__xeCJK_punct_kern_skip=\skip54
+\l__xeCJK_last_penalty_int=\count184
+\l__xeCJK_last_bound_dim=\dimen143
+\l__xeCJK_last_kern_dim=\dimen144
+\l__xeCJK_widow_penalty_int=\count185
+
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2335.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen145
+\l__xeCJK_mixed_punct_width_dim=\dimen146
+\l__xeCJK_middle_punct_width_dim=\dimen147
+\l__xeCJK_fixed_margin_width_dim=\dimen148
+\l__xeCJK_mixed_margin_width_dim=\dimen149
+\l__xeCJK_middle_margin_width_dim=\dimen150
+\l__xeCJK_bound_punct_width_dim=\dimen151
+\l__xeCJK_bound_margin_width_dim=\dimen152
+\l__xeCJK_margin_minimum_dim=\dimen153
+\l__xeCJK_kerning_total_width_dim=\dimen154
+\l__xeCJK_same_align_margin_dim=\dimen155
+\l__xeCJK_different_align_margin_dim=\dimen156
+\l__xeCJK_kerning_margin_width_dim=\dimen157
+\l__xeCJK_kerning_margin_minimum_dim=\dimen158
+\l__xeCJK_bound_dim=\dimen159
+\l__xeCJK_reverse_bound_dim=\dimen160
+\l__xeCJK_margin_dim=\dimen161
+\l__xeCJK_minimum_bound_dim=\dimen162
+\l__xeCJK_kerning_margin_dim=\dimen163
+\g__xeCJK_family_int=\count186
+\l__xeCJK_fam_int=\count187
+\g__xeCJK_fam_allocation_int=\count188
+\l__xeCJK_verb_case_int=\count189
+\l__xeCJK_verb_exspace_skip=\skip55
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count190
+\l__fontspec_language_int=\count191
+\l__fontspec_strnum_int=\count192
+\l__fontspec_tmp_int=\count193
+\l__fontspec_tmpa_int=\count194
+\l__fontspec_tmpb_int=\count195
+\l__fontspec_tmpc_int=\count196
+\l__fontspec_em_int=\count197
+\l__fontspec_emdef_int=\count198
+\l__fontspec_strong_int=\count199
+\l__fontspec_strongdef_int=\count266
+\l__fontspec_tmpa_dim=\dimen164
+\l__fontspec_tmpb_dim=\dimen165
+\l__fontspec_tmpc_dim=\dimen166
+ (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/xelatex/xecjk\xeCJK.cfg
+File: xeCJK.cfg 2020/08/23 v3.8.5 Configuration file for xeCJK package
+))
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen167
+))
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen168
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count267
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count268
+\leftroot@=\count269
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count270
+\DOTSCASE@=\count271
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count272
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip17
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks16
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks17
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks18
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip59
+\thm@postskip=\skip60
+\thm@headsep=\skip61
+\dth@everypar=\toks25
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+\lst@mode=\count279
+\lst@gtempboxa=\box49
+\lst@token=\toks27
+\lst@length=\count280
+\lst@currlwidth=\dimen176
+\lst@column=\count281
+\lst@pos=\count282
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count283
+\lst@lineno=\count284
+\lst@maxwidth=\dimen179
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count285
+\lst@skipnumbers=\count286
+\lst@framebox=\box50
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/xelatex/xecjk\xeCJK-listings.
+sty
+Package: xeCJK-listings 2020/08/23 v3.8.5 xeCJK patch file for listings
+\l__xeCJK_listings_max_char_int=\count287
+\l__xeCJK_listings_flag_int=\count288
+) (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count289
+\Gm@cntv=\count290
+\c@Gm@tempcnt=\count291
+\Gm@bindingoffset=\dimen180
+\Gm@wd@mp=\dimen181
+\Gm@odd@mp=\dimen182
+\Gm@even@mp=\dimen183
+\Gm@layoutwidth=\dimen184
+\Gm@layoutheight=\dimen185
+\Gm@layouthoffset=\dimen186
+\Gm@layoutvoffset=\dimen187
+\Gm@dimlist=\toks28
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfig\geometry.
+cfg))
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen190
+\Hy@linkcounter=\count292
+\Hy@pagecounter=\count293
+ (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count294
+Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count295
+ (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen191
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count296
+\Field@Width=\dimen192
+\Fld@charsize=\dimen193
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring ON on input line 6365.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/atbegshi\atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count297
+\c@Item=\count298
+\c@Hfootnote=\count299
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box51
+\c@Hy@AnnotLevel=\count300
+\HyField@AnnotCount=\count301
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/atveryend\atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip62
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+
+Package fontspec Info: Font family 'Consolas(0)' created for font 'Consolas'
+(fontspec)             with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Consolas/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Consolas/B/OT:script=latn;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Consolas/I/OT:script=latn;language=dflt;mapping=tex-
+text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Consolas/BI/OT:script=latn;language=dflt;mapping=tex
+-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Consolas(1)' created for font 'Consolas'
+(fontspec)             with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Mapping={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Consolas/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Consolas/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Consolas/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Consolas/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+
+Package xeCJK Warning: Fandol is being set as the default font for CJK text.
+(xeCJK)                Please make sure it has been properly installed.
+
+
+Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'FandolSong-Regular(0)' created for font
+(fontspec)             'FandolSong-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold
+},ItalicFont={FandolKai-Regular}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+(template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
+9.
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 79.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 79.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 79.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 79.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 79.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 79.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 79.
+LaTeX Font Info:    Redeclaring math accent \check on input line 79.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 79.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 79.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 79.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 79.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 79.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Consolas(0)/m/n on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/m/n on input line 79.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Consolas(0)/b/n on input line 79.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/Consolas(1)/b/n on input line 79.
+\c@lstlisting=\count304
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.47955pt, 416.54877pt, 90.47955pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.54877pt
+* \textheight=700.50723pt
+* \oddsidemargin=18.20956pt
+* \evensidemargin=18.20956pt
+* \topmargin=-37.00018pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=30.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box52
+Package hyperref Info: Link coloring ON on input line 79.
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count305
+)
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
+ (template.out) (template.out)
+\@outlinefile=\write3
+\openout3 = `template.out'.
+
+ (template.toc
+(C:\Users\zzy81\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-pr
+int.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+) [1
+
+]
+
+Package xeCJK Warning: Unknown CJK family `kai' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKfamilyfont{kai}[...]{...}' to define
+(xeCJK)                it.
+
+[2] [3])
+\tf@toc=\write4
+\openout4 = `template.toc'.
+
+ [4]
+
+Package fontspec Info: Font family 'Consolas(2)' created for font 'Consolas'
+(fontspec)             with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Consolas/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Consolas/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Consolas/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Consolas/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+
+Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
+(fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
+(fontspec)             'FandolFang-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+(图论/最短路/堆优化Dijkstra.cpp
+
+LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/b/n' undefined
+(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
+1.
+
+
+Package fontspec Info: Could not resolve font "Consolas Bold/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'ConsolasBold(0)' created for font
+(fontspec)             'Consolas Bold' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Consolas
+(fontspec)             Bold/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Consolas
+(fontspec)             Bold/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Consolas
+(fontspec)             Bold/BI/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+LaTeX Font Warning: Font shape `TU/ConsolasBold(0)/b/n' undefined
+(Font)              using `TU/ConsolasBold(0)/m/n' instead on input line 4.
+
+[5]) (图论/最短路/spfa.cpp [6]) (图论/最短路/floyd求传递闭包.cpp [7]) (图论/最短路/floyd求最小环.cpp
+[8]) (图论/最短路/johnson全源最短路.cpp [9] [10]) (图论/最短路/差分约束系统.cpp [11])
+(图论/最短路/经典例题.cpp [12] [13]) ("图论/最短路/SCOI2011 糖果.cpp" [14] [15])
+("图论/最短路/16 ccpc final G.cpp" [16] [17] [18] [19] [20]) [21] (图论/最短路/倍杀测量者.cpp
+[22] [23]) ("图论/最短路/LightOJ 1208.cpp" [24] [25] [26] [27] [28])
+("图论/最短路/LightOJ 1221.cpp" [29] [30]) ("图论/生成树/最小树形图 固定根.cpp" [31] [32])
+("图论/生成树/最小树形图 固定根 输出方案.cpp" [33] [34]) ("图论/生成树/最小树形图 不固定根.cpp" [35]) [36]
+(图论/网络流/DICNIC.cpp [37]) (图论/网络流/ISAP.cpp [38] [39] [40]) (图论/网络流/MCMF.cpp
+[41]) (图论/网络流/常见思路.cpp [42]) (图论/匹配问题/匈牙利.cpp [43]) (图论/匹配问题/HK.cpp [44]
+[45]) (图论/匹配问题/dfs版本.cpp [46] [47]) (图论/匹配问题/bfs版本.cpp [48]) (图论/匹配问题/带花树.cpp
+[49] [50]) (图论/匹配问题/稳定婚姻问题.cpp) (图论/匹配问题/常见思路.cpp [51]) (图论/二分图博弈/二分图博弈.cpp)
+("图论/二分图博弈/bzoj 1443 JSOI2009.cpp" [52] [53]) (图论/2-SAT/输出任意解.cpp [54] [55])
+(图论/2-SAT/输出字典序最小解.cpp [56]) (图论/2-SAT/思路.cpp) (图论/2-SAT/经典例题.cpp [57])
+("图论/2-SAT/UVA 11930.cpp" [58] [59] [60]) (图论/2-SAT/cf27D.cpp [61] [62])
+(图论/强连通/有向可有环图.cpp [63] [64]) ("图论/双连通/割点 桥.cpp" [65] [66]) ("图论/双连通/割点 桥 v2.cp
+p" [67]) ("图论/双连通/割点 桥 v3.cpp" [68] [69]) [70] (图论/双连通/船新版本.cpp [71])
+(图论/双连通/思路.cpp) (图论/双连通/经典例题.cpp [72] [73]) ("图论/双连通/POJ 2942.cpp" [74]
+[75] [76]) [77] ("图论/双连通/UVA 10972.cpp" [78]) (图论/双连通/T103492.cpp [79] [80])
+(图论/双连通/P1407.cpp [81] [82]) ("图论/双连通/gym 102835.cpp" [83] [84])
+("图论/双连通/LightOJ 1308.cpp" [85] [86] [87] [88]) (图论/欧拉回路/模板.cpp [89])
+(图论/欧拉回路/知识点.cpp) (图论/欧拉回路/经典例题.cpp) [90] ("图论/欧拉回路/cf 21D.cpp" [91])
+(图论/LCA/ST表.cpp [92] [93]) (图论/LCA/离线.cpp [94]) (图论/最大团/Bron-Kerbosch.cpp
+[95]) (图论/最大团/常见思路.cpp) (图论/拓扑排序/toposort.cpp [96]) (图论/相关题集/牛逼的图论题.cpp)
+("图论/相关题集/cf 1364D.cpp" [97]) [98] (计算几何/点.cpp [99]) (计算几何/线.cpp [100] [101])
+(计算几何/圆.cpp [102]) (计算几何/多边形.cpp [103] [104] [105]) (计算几何/半平面交.cpp [106]
+[107]) (计算几何/function.cpp) (计算几何/注意点.cpp [108]) (计算几何/常出现的模型.cpp)
+(计算几何/奇怪的技巧.cpp) (计算几何/凸包/判断是否是稳定凸包.cpp [109]) ("计算几何/旋转卡壳/SCOI2007 最大土地面积.cpp"
+[110] [111] [112] [113] [114] [115]) [116] ("计算几何/扫描线/矩形面积交 hdu1255.cpp"
+[117]) ("计算几何/扫描线/面积并 坐标double版.cpp" [118] [119])
+("计算几何/扫描线/面积并 坐标i64版 O(nlgn).cpp" [120]) ("计算几何/扫描线/周长并 O(nlgn).cpp" [121]
+[122]) (计算几何/半平面交/经典例题.cpp) ("计算几何/半平面交/codechef ALLPOLY.cpp" [123] [124]
+[125] [126] [127] [128] [129]) (计算几何/不知道分在哪一类/经典例题.cpp [130])
+("计算几何/不知道分在哪一类/cf 598C.cpp" [131]) ("计算几何/不知道分在哪一类/2020ZJ省赛 H.cpp" [132]
+[133] [134]) ("计算几何/不知道分在哪一类/2018 ccpc 桂林 H.cpp" [135])
+("计算几何/不知道分在哪一类/LightOj 1208.cpp" [136]) ("计算几何/不知道分在哪一类/LightOJ 1292.cpp"
+[137] [138]) ("计算几何/不知道分在哪一类/LightOJ 1230.cpp" [139] [140])
+("数据结构/线段树/线段树_区间合并 hotel.cpp" [141] [142]) (数据结构/树状数组/逆序对.cpp [143])
+(数据结构/树剖/重链剖分.cpp [144]) (数据结构/树剖/题单.txt) (数据结构/树剖/P3384.cpp [145] [146]
+[147]) (数据结构/主席树/静态查询区间第k大.cpp [148]) (数据结构/主席树/动态查询区间第k大.cpp [149] [150])
+(数据结构/字典树/trie树.cpp [151]) (字符串/1-KMP.cpp [152]) (字符串/2-exKMP.cpp [153])
+(字符串/3-Manacher.cpp [154]) (dp/树形dp/树的重心.cpp [155]) (dp/树形dp/树上最远距离.cpp
+[156]) (树上问题/树的直径.cpp [157]) [158] (STL/自定义排序.cpp) (STL/nth_element.cpp)
+(其他问题/ST表/ST表.cpp [159]) (其他问题/莫队/复杂度.cpp) ("其他问题/莫队/普通莫队 LOJ 1188 O(根号n乘q).cpp
+" [160]) ("其他问题/莫队/带修改莫队 cf 940F.cpp" [161] [162] [163]) [164]
+("其他问题/母函数/hdu 1028.cpp") (其他问题/二分注意点.cpp) (其他问题/LIS.cpp [165]) (其他问题/尺取法.cpp)
+(其他问题/单调队列.cpp [166]) ("其他问题/一句话去重 并生成新数组.cpp") [167] (其他问题/输入一行看有多少个数.cpp)
+(其他问题/最小（大）表示法.cpp) (其他问题/随机数.cpp [168]) (其他问题/输入日期输出周几.cpp) (黑科技/IO/快读模板.cpp
+[169]) ("黑科技/IO/__int128 输入输出模板.cpp") [170] (黑科技/istringstream.cpp)
+("黑科技/unordered_map 防hack模板.cpp") (黑科技/杜教BM.cpp [171] [172]) (黑科技/模拟退火.cpp
+[173]) (大数/java/输入.cpp [174]) (大数/java/申明变量.cpp) (大数/java/String操作.cpp [175])
+(大数/java/注意点.cpp) (大数/python/python.cpp)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+ [176]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+ (template.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: B59FC20E2307BCE7B8DF82B7ABD4BB72;15383.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
+ ) 
+Here is how much of TeX's memory you used:
+ 20038 strings out of 414071
+ 360352 string characters out of 2894591
+ 1090307 words of memory out of 3000000
+ 37079 multiletter control sequences out of 15000+200000
+ 536930 words of font info for 85 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 56i,12n,78p,304b,1898s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on template.pdf (176 pages).
