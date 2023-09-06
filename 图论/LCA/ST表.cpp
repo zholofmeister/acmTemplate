@@ -19,10 +19,10 @@ struct LCA
 		path[++all] = u;
 		loc[u] = all;
 		dep[all] = now;
+		len[u] = now;
 		for (node cur : G[u]) {
-            int v = cur.to;
+			int v = cur.to;
 			if (loc[v]) continue;
-			len[v] = now+1;
 			dist[v] = dist[u]+cur.w;
 			dfs(v, now+1);
 			path[++all] = u;
