@@ -13,6 +13,7 @@ void kmp_pre(char x[], int m, int nxt[]) {
 		nxt[++i] = ++j;
 	}
 }
+// x是子串,y是主串
 int kmp_count(char x[], int m, char y[], int n) {
 	int i, j;
 	int ans = 0;
